@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s all ease-out;
+
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #2ecc71;
+
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 50px;
+
+    color: #2ecc71;
+    background-color: #fff;
+
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/*--------INTRO--------*/
+.intro {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.intro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 0 70px 0;
+}
+
+.intro-header__logo {
+    width: 133px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.intro-header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.intro-header__list li a {
+    display: block;
+
+    border: 1px solid transparent;
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 50px;
+
+
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.intro-main {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-main__logo {
+    width: 110px;
+    height: 110px;
+
+    background: url('../img/intro/app.png') 100% 100% no-repeat;
+    background-size: cover;
+
+}
+
+.intro-main__phone {
+    height: 400px;
+    width: 400px;
+
+    background: url('../img/intro/iphone.png') 100% 100% no-repeat;;
+    background: cover;
+}
+
+
