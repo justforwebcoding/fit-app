@@ -44,6 +44,7 @@ a:hover {
 
 /*--------INTRO--------*/
 .intro {
+    height: 100vh;
     color: #fff;
     background-color: #2ecc71;
 }
@@ -87,21 +88,63 @@ a:hover {
     align-items: center;
 }
 
-.intro-main__logo {
+.intro-main__left {
+    text-align: left;
+}
+
+.intro-main__left .logo {
     width: 110px;
     height: 110px;
 
     background: url('../img/intro/app.png') 100% 100% no-repeat;
     background-size: cover;
+}
+
+.intro-main__left h2 {
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.intro-main__left p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.intro-main__left .stores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px 0;
+}
+
+.intro-main__left .stores a{
+    display: block;
+
+    width: 140px;
+    height: 50px;
+}
+
+.intro-main__left .stores a:nth-child(1){
+    background: url('../img/intro/appstore.png') no-repeat;
 
 }
 
-.intro-main__phone {
-    height: 400px;
-    width: 400px;
-
-    background: url('../img/intro/iphone.png') 100% 100% no-repeat;;
-    background: cover;
+.intro-main__left .stores a:nth-child(2){
+    background: url('../img/intro/googleplay.png') no-repeat;
 }
+
+
+.intro-main__img {
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+
+    background: url('../img/intro/iphone.png') center no-repeat;
+    background-position: 50px;
+    background-size: cover;
+}
+
 
 
